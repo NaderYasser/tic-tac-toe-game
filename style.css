@@ -1,0 +1,46 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+}
+body{
+     /** background-image: url('Lord-Of-The-Rings-Desktop-Wallpaper.jpg');
+      background-position: ; **/
+      text-align:center;
+      font-family: tron ;
+      background-color: #0C090A ;
+
+}
+canvas{
+	background: #00FFFF;
+	-webkit-transition:-webkit-transform 1s ; 
+	-ms-transition:-ms-transform 1s ; 
+	-o-transition:-o-transform 1s ; 
+	-moz-transition:-moz-transform 1s ; 
+	 transition:transform 1s ; 
+	 box-shadow: 1px 1px 10px #C2DFFF ;
+}
+canvas:hover{
+      width: 76px;
+      height: 74px;
+      
+
+}
+
+#canvasDiv{
+ 
+	margin: 120px 80px auto 40px ;
+}
+#reload{
+	font: 30px tron ;
+	text-decoration: none;
+	color: #00FFFF;
+	text-shadow:5px 5px 10px skyblue;
+}
+#reload:hover{
+	font-size: 33px;
+	opacity: 0.7 ;
+}
+@font-face{
+	font-family: "tron";
+	src: url('tron465.TTF') ;}/**format('embedded-opentype')
+}
